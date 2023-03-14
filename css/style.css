@@ -5,7 +5,6 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 8px 98px;
     gap: 200px;
 
     width: 100%;
@@ -21,7 +20,7 @@ header{
 }
 
 #menuLogo{
-    width: 150px;
+    width: 170px;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -39,6 +38,7 @@ nav a{
     text-align: center;
     text-decoration: none;
     color: black;
+    font-family: fantasy;
 }
 
 a:hover{
@@ -56,4 +56,30 @@ a:active{
     background-color: rgb(42, 73, 144);
     color: rgb(255, 255, 255);
     border-radius: 25px;
+}
+
+.sideMenu{
+    width: 10%;
+    height: 100vh;
+    background-color: rgb(42, 73, 144);
+    text-align: center;
+}
+
+.sideMenu nav{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.sideElements{
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto 20px auto;
+    width: 70%;
+    padding: 8px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sideElements:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(92, 91, 91);
+    border-radius: 0px;
 }
