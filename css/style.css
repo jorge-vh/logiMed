@@ -63,6 +63,7 @@ a:active{
     height: 100vh;
     background-color: rgb(42, 73, 144);
     text-align: center;
+    float: left;
 }
 
 .sideMenu nav{
@@ -83,3 +84,71 @@ a:active{
     background-color: rgb(92, 91, 91);
     border-radius: 0px;
 }
+
+.defaultHome{
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    float: right;
+    height: 100vh;
+}
+
+.defaultHome article{
+    height: 100%;
+    width: 60%;
+    float: left;
+    text-align: center;
+}
+
+.defaultHome article h1{
+    display: inline-block;
+    width: 80%;
+    height: fit-content;
+    text-align: left;
+    font-size: 100px;
+    color: #0c2e5a;
+    margin: 150px 0 30px 0;
+}
+
+.defaultHome article h2{
+    display: inline-block;
+    width: 80%;
+    text-align: left;
+    font-size: 30px;
+    color: #486284;
+    margin: 0 0 10px 0;
+}
+
+.defaultHome section{
+    width: 40%;
+    height: 100%;
+    float: right;
+}
+
+.defaultHome section img{
+    width: 70%;
+    display: block;
+    margin: 80px auto;
+}
+
+.defaultHome article p{
+    display: inline-block;
+    width: 80%;
+    text-align: left;
+    font-size: 20px;
+    color: #8CA2C0;
+    margin: 0 0 10px 0;
+}
+
+.chartView{
+    display: inline-block;
+    width: 90%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.chartView img{
+    display: block;
+    width: 60%;
+    margin: 20px auto;
+}
+
